@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    background-color: blue;
+    width: 15vw;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+nav a {
+    background-color: red;
+    color: rgb(208, 144, 61);
+    padding: 0.5em;
+    margin: 0.25em;
+    transition: 5s;
+    box-sizing: border-box;
+    
+
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+section {
+    background-color: brown;
+    width: 100vw;
+}
+
+header, section{
+    overflow: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
