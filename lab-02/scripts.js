@@ -2,7 +2,7 @@ function greetMe(){
     const b = a + 1
     
     console.log("hello",b)
-    //console.log(a)
+
     
 }
 
