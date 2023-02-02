@@ -1,10 +1,14 @@
-function greetMe(){
-    const b = a + 1
-    
-    console.log("hello",b)
+"use strict";
 
-    
+const message = "hello yb"
+const target = document.getElementById('myParagraph');
+target.textContent = message;
+
+
+function greetMe(){
+    //const target = document.getElementById('myParagraph');
+    //target.textContent = message;
+
 }
 
-const a = 1
-myTrigger.addEventListener('click', greetMe(a));
+//myTrigger.addEventListener('click', greetMe(message));
